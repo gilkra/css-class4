@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Highlights</title>
+	<style type="text/css">
+
+		* { margin: 0; padding:0; }
+		body {
+			font-family: Arial, sans-serif;
+			font-size: 100%;
+			margin: 10px;
+		}
+		.menu-list {
+			width: 304px;
+			/*border: 2px solid #c8cdd2;*/
+			background: #fff url(img/bg.gif) no-repeat;
+			padding: 10px 0;
+			float: left;
+		}
+		.menu-list dl {
+			margin: 10px 20px;
+			float: left;
+			width: 260px;
+		}
+		.menu-list dt {
+			font-size: 1em;
+			letter-spacing: 1px;
+			color: #627081;
+			float: right;
+			width: 162px;
+		}
+		.menu-list dd {
+			font-size: 0.8em;
+			line-height: 1.6;
+			color: #666;
+		}
+		.menu-list img {
+			float: left;
+			padding: 4px;
+			border: 1px solid #d9e0e6;
+			border-color: #d9e0e6 #c8cdd2 #d9e0e6 #c8cdd2;
+			margin-right: 8px;
+			box-shadow: 1px 1px 3px rgb(25,25,25);
+		}
+		.menu-list dd+dd {
+			margin-left: 98px;
+		}
+
+		/* fancy nth-child */
+		.menu-list dl:nth-child(even) dt {
+			float: left;
+		}
+		.menu-list dl:nth-child(even) img {
+			float: right;
+			margin-left: 8px;
+			margin-right: 0;
+		}
+		.menu-list dl:nth-child(even) dd+dd {
+			margin-right: 0;
+			margin-left: 0;
+		}	
+
+		/* end fancy */
+
+	</style>
+</head>
+
+<body>
+	<div class="menu-list">
+		<dl>
+			<dt>Spicy Tuna Roll</dt>
+			<dd><img src="img/1.jpg" width="80" height="80" alt="Tuna Roll"></dd>
+			<dd>Our specialty - spicy tuna rolls.</dd>
+		</dl>
+
+		<dl class="alt">
+			<dt>Sushi for Two</dt>
+			<dd><img src="img/2.jpg" width="80" height="80" alt="Sushi for Two"></dd>
+			<dd>Enjoy a special treat for two. Orders also available for three or more. Enjoy a special treat for two. Orders also available for three or more.</dd>
+		</dl>
+
+		<dl>
+			<dt>Omikase</dt>
+			<dd><img src="img/3.jpg" width="80" height="80" alt="Omikase"></dd>
+			<dd>Allow our executive chef to prepare a special selection of the day's top choices.</dd>
+		</dl>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
